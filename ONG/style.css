@@ -1,0 +1,29 @@
+body{
+    background-color:grey;
+}
+h1{
+    font-size: 350%;
+    text-align: center;
+    color: snow;
+}
+h2{
+    font-size: 95%;
+    text-align: center;
+    color: snow;
+    margin-bottom: 32px;
+}
+#Empleados{
+    color: snow;
+    display: inline-block;
+}
+#Centro{
+    text-align: center;
+}
+#Pet{
+    width: 256px;height: 256px;
+}
+#Pets{
+    width: 128px;height: 128px;
+}
+
+
