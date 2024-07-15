@@ -7,6 +7,10 @@ def index(request):
     context={}
     return render(request,'pets/index.html',context)
 
+def perros(request):
+    context={}
+    return render(request,'pets/perros.html',context)
+
 def reg_prod(request):
     if request.method == 'POST':
         form = ProductoForm(request.POST, request.FILES)
